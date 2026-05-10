@@ -37,7 +37,7 @@ real-time-expert-booking/
 
 ### Prerequisites
 - Node.js installed
-- MongoDB installed and running locally
+- MongoDB installed locally OR MongoDB Atlas account
 
 ### Backend Setup
 ```bash
@@ -75,4 +75,14 @@ CLIENT_URL=http://localhost:3000
 ```
 
 ## 🎥 Demo
+Video: [https://youtu.be/_A3HWnrB4uE]
+
+## 🌐 Live Demo
+- Frontend: https://expert-booking-client.vercel.app
+- Backend API: https://expert-booking-api-cnpe.onrender.com
+
+## ⚠️ Note
+- Backend is hosted on Render free tier.
+- First load may take 30-60 seconds to wake up.
+- Please wait if experts don't load immediately.
 
