@@ -4,7 +4,7 @@ import axios from 'axios';
 import { useParams, useNavigate } from 'react-router-dom';
 import { io } from 'socket.io-client';
 
-const BASE   = 'http://localhost:5000';
+const BASE   = 'https://expert-booking-api-cnpe.onrender.com';
 const socket = io(BASE);
 
 export default function ExpertDetail() {

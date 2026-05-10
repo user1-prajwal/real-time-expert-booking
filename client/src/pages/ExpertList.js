@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
-const BASE = 'http://localhost:5000';
+const BASE = 'https://expert-booking-api-cnpe.onrender.com';
 const CATEGORIES = ['All','Technology','Finance','Design','Marketing'];
 
 export default function ExpertList() {

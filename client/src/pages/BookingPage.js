@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 
-const BASE = 'http://localhost:5000';
+const BASE = 'https://expert-booking-api-cnpe.onrender.com';
 
 export default function BookingPage() {
   const { id }    = useParams();
