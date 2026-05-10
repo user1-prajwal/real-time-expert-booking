@@ -75,7 +75,7 @@ CLIENT_URL=http://localhost:3000
 ```
 
 ## 🎥 Demo
-Video: [https://youtu.be/_A3HWnrB4uE]
+Video: https://youtu.be/_A3HWnrB4uE
 
 ## 🌐 Live Demo
 - Frontend: https://expert-booking-client.vercel.app
