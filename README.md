@@ -18,6 +18,7 @@ A full-stack web application that allows users to browse experts, book sessions 
 - ✅ Form validation on booking
 - 📧 View bookings by email
 - 🔄 Booking status flow — Pending → Confirmed → Completed
+- 📅 Rolling 7-day slot system — slots automatically refresh daily, always showing next 7 days
 
 ## 📁 Folder Structure
 ```
@@ -80,6 +81,15 @@ Video: https://youtu.be/_A3HWnrB4uE
 ## 🌐 Live Demo
 - Frontend: https://expert-booking-client.vercel.app
 - Backend API: https://expert-booking-api-cnpe.onrender.com
+
+## 🔄 How Slots Work
+
+Expert time slots automatically refresh every day at midnight:
+- Today's slots are removed
+- A new future day is added at the end
+- Always shows exactly 7 days ahead
+- Booked slots are never affected
+- Powered by a daily cron job (node-cron)
 
 ## ⚠️ Note
 - Backend is hosted on Render free tier.
