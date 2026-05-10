@@ -16,7 +16,7 @@ export default function ExpertDetail() {
   const [selectedDate, setSelectedDate] = useState('');
   const [selectedSlot, setSelectedSlot] = useState(null); // NEW — tracks selected slot
 
-  // eslint-disable-next-line
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     fetchExpert();
 

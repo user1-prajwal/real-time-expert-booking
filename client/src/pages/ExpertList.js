@@ -16,7 +16,8 @@ export default function ExpertList() {
   const navigate = useNavigate();
 
 
-  // eslint-disable-next-line
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
   const delay = setTimeout(() => {
     fetchExperts();
