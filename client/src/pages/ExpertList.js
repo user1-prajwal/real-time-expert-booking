@@ -15,9 +15,8 @@ export default function ExpertList() {
   const [totalPages, setTotalPages] = useState(1);
   const navigate = useNavigate();
 
-  // useEffect(() => {
-  //   fetchExperts();
-  // }, [page, category]);
+
+  // eslint-disable-next-line
   useEffect(() => {
   const delay = setTimeout(() => {
     fetchExperts();
