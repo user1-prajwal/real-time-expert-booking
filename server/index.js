@@ -44,7 +44,7 @@ cron.schedule('0 0 * * *', async () => {
       expert.timeSlots = expert.timeSlots.filter(s => {
         const slotDate = new Date(s.date);
         slotDate.setHours(0, 0, 0, 0);
-        return slotDate > today;
+        return slotDate >= today;
       });
 
       // Find latest future date
